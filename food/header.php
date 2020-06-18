@@ -24,7 +24,7 @@ include 'database.php';
 <body>
 <header>
 
-    <h1 id="title"><img src="food.jpg" height="60" width="100px" style="float: left;" class="logo">Food Bazaar </h1><img src="b.jpg" height="80" width="80" style="float: right;" class="profile"><br><br>
+    <h1 id="title"><img src="images/food.jpg" height="60" width="100px" style="float: left;" class="logo">Food Bazaar </h1><img src="images/b.jpg" height="80" width="80" style="float: right;" class="profile"><br><br>
 
 <ul class="topnav">
     <li><a href="index.php" class="active">Home</a></li>
@@ -72,6 +72,10 @@ body {
     background-color: rgb(126, 163, 135);
     border: 2px solid rgb(126, 163, 135);
     border-radius: 40px;
+    position: sticky;
+    top: 0;
+
+
 }
 li{
     float: left;

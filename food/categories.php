@@ -4,6 +4,20 @@ include 'header.php';
 
 ?>
 <style type="text/css">
+  .types h1{
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 20px 40px 120px;
+    text-align: center;
+  }
+  h1 a{
+    color: orange;
+    border-bottom: 2px solid #333;
+  }
+  h1 a:hover{
+    text-decoration: none;
+    color: green;
+  }
 	.headings{
     	display: block;
     	margin-top: 20px;
@@ -23,9 +37,16 @@ include 'header.php';
 
 <h1 class="headings">Order Items:</h1><br>
 
- <div class="card-deck">
+<div class="types">
+  <h1 class="first"><a href="">Veg</a></h1>
+  <h1><a href="">Non-Veg</a></h1>
+  <h1><a href="">Fast-Food</a></h1>
+  <h1><a href="">Chinese-Items</a></h1>
+</div>
+
+ <div class="card-deck" style="padding: 40px;">
   <div class="card">
-    <img class="card-img-top" src="grilled-chicken.jpg" alt="Card image cap" height="300" width="100">
+    <img class="card-img-top" src="images/grilled-chicken.jpg" alt="Card image cap" height="300" width="100">
     <div class="card-body">
       <h5 class="card-title">Grilled Chicken </h5>
       <p class="card-text">Price : Rs.65/-</p>
@@ -35,7 +56,7 @@ include 'header.php';
   </div>
 
   <div class="card">
-    <img class="card-img-top" src="gobi rice.jpg" alt="Card image cap" height="300" width="100">
+    <img class="card-img-top" src="images/gobi rice.jpg" alt="Card image cap" height="300" width="100">
     <div class="card-body">
       <h5 class="card-title">Gobi Rice</h5>
       <p class="card-text">Price : Rs.54/-</p>
@@ -45,7 +66,7 @@ include 'header.php';
   </div>
 
   <div class="card">
-    <img class="card-img-top" src="noodles.jpg" alt="Card image cap" height="300" width="100">
+    <img class="card-img-top" src="images/noodles.jpg" alt="Card image cap" height="300" width="100">
     <div class="card-body">
       <h5 class="card-title">Noodles</h5>
       <p class="card-text">Price : Rs.70/-</p>
@@ -58,9 +79,9 @@ include 'header.php';
 
 
 
-<div class="card-deck">
+<div class="card-deck" style="padding: 40px;">
   <div class="card">
-    <img class="card-img-top" src="masala fries.jpg" alt="Card image cap" height="300" width="100">
+    <img class="card-img-top" src="images/masala fries.jpg" alt="Card image cap" height="300" width="100">
     <div class="card-body">
       <h5 class="card-title">Masala Fries </h5>
       <p class="card-text">Price : Rs.87/-</p>
@@ -70,7 +91,7 @@ include 'header.php';
   </div>
 
   <div class="card">
-    <img class="card-img-top" src="pizza.jpg" alt="Card image cap" height="300" width="100">
+    <img class="card-img-top" src="images/pizza.jpg" alt="Card image cap" height="300" width="100">
     <div class="card-body">
       <h5 class="card-title">Pizza</h5>
       <p class="card-text">Price : Rs.215/-</p>
@@ -80,7 +101,7 @@ include 'header.php';
   </div>
 
   <div class="card">
-    <img class="card-img-top" src="samosa.jpg" alt="Card image cap" height="300" width="100">
+    <img class="card-img-top" src="images/samosa.jpg" alt="Card image cap" height="300" width="100">
     <div class="card-body">
       <h5 class="card-title">Samosa</h5>
       <p class="card-text">Price : Rs.50/-</p>
@@ -89,6 +110,39 @@ include 'header.php';
     </div>
   </div>
 </div>
+
+<div class="card-deck" style="padding: 40px;">
+  <div class="card">
+    <img class="card-img-top" src="images/dosa.jpg" alt="Card image cap" height="300" width="100">
+    <div class="card-body">
+      <h5 class="card-title">Dosa </h5>
+      <p class="card-text">Price : Rs40/-</p>
+      <a href="#" class="btn btn-primary btn-lg">Order-Now</a>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="images/idli.jpg" alt="Card image cap" height="300" width="100">
+    <div class="card-body">
+      <h5 class="card-title">Idli</h5>
+      <p class="card-text">Price : Rs.45/-</p>
+      <a href="#" class="btn btn-primary btn-lg">Order-Now</a>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="images/puri.jpg" alt="Card image cap" height="300" width="100">
+    <div class="card-body">
+      <h5 class="card-title">Puri</h5>
+      <p class="card-text">Price : Rs.40/-</p>
+      <a href="#" class="btn btn-primary btn-lg">Order-Now</a>
+
+    </div>
+  </div>
+</div>
+
 
 <div class="footer">
     <h1>&copy 2020:Food Bazaar</h1>

@@ -17,14 +17,14 @@ else {
 <html>
 <style type="text/css">
 	.login-box{
-	border: 2px solid green;
-	padding: 0px 15px 20px;
+		display: inline-block;
+	border:2px solid green;
+	padding: 20px 20px;
 	border-radius: 20px;
 	width: 340px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	position: relative;
+	left: 35%;
+	top: 30%;
 	color: #333;
 
 	}
@@ -74,11 +74,12 @@ else {
 		font-size: 20px;
 		font-weight: bold;
 		cursor: pointer;
-		margin: 12px 0;
+		margin-top: 12px;
 	}
 </style>
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <body style="background-color: white;">
+
 <div class="login-box" style="margin-top: 50px;">
     <form method="post" action=""> 
 	<h1 style="color: #333;">Login</h1>
@@ -97,10 +98,10 @@ else {
 
 	<input class="login" type="submit" name="action" value="Sign in">
    </form>
-</div>
-<?php
-include 'footer.php';
-?>
+</div><br><br><br>
+	<?php
+	include 'footer.php';
+	?>
 </body>
 </html>
 <?php
