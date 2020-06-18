@@ -53,7 +53,12 @@ else {
 	     width: 80%;
 	     margin: 0 10px;
 	}
-
+	.bottom-p{
+		text-align: center;
+	}
+	.bottom-p a{
+		font-weight: bold;
+	}
 	.login{
 		width: 100%;
 		background-color: rgb(137, 148, 67);
@@ -97,6 +102,9 @@ else {
 
 	<input class="login" type="submit" name="action" value="Sign in">
    </form>
+<p class="bottom-p">
+	New to Bazaar.com <a href="register.php">Register Now</a>
+</p>
 </div>
 <?php
 include 'footer.php';
