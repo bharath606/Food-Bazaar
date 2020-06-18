@@ -8,7 +8,7 @@
 		text-align: center;
 		background-color: #333;
 		color: orange;
-		position: absolute;
-		bottom: 0px;
+		position: fixed;
+		bottom: 0;
 	}
 </style>

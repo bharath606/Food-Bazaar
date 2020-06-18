@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 ?>
- <link rel="icon" href="food.jpg" type="image/jpg">
+ <link rel="icon" href="images/food.jpg" type="image/jpg">
  <link rel="stylesheet" type="text/css" href="styles.css">
  <style type="text/css">
  	.box{
@@ -50,7 +50,7 @@ include 'header.php';
 
  	</div>
  	<div class="image">
- 	    <img src="food.jpg" height="300" width="400">
+ 	    <img src="images/food.jpg" height="300" width="400">
  	</div><br><br>
   <h1 class="headings"  >About Us</h1>
 
@@ -58,7 +58,7 @@ include 'header.php';
   <div class="column">
     <div class="ui fluid card">
       <div class="image">
-        <img src="delivery.jpg">
+        <img src="images/delivery.jpg">
       </div>
       <div class="content">
         <a class="header">Home Delivery</a><br>
@@ -69,7 +69,7 @@ include 'header.php';
   <div class="column">
     <div class="ui fluid card">
       <div class="image">
-        <img src="discount.jpg" height="100">
+        <img src="images/discount.jpg" height="100">
       </div>
       <div class="content">
         <a class="header">10% Off</a><br>
@@ -80,7 +80,7 @@ include 'header.php';
   <div class="column">
     <div class="ui fluid card">
       <div class="image">
-        <img src="cancel.jpg">
+        <img src="images/cancel.jpg">
       </div>
       <div class="content">
         <a class="header">No Cancel</a><br>
