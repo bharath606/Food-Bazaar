@@ -35,7 +35,7 @@ if (isset($_FILES["import"])) {
     }
 }
 if($_POST["action"]){
-    $data["name"] = $_POST["name"];
+    $data["name"] = $_POST["iname"];
     if ($_FILES["photo"]) {
         $target_dir = "uploads/";
         $target_file = $target_dir .time(). basename($_FILES["photo"]["name"]);
@@ -99,7 +99,7 @@ if($_POST["action"]){
         <table class="ui blue striped table collapsing">
         <tr>
             <td>Name</td>
-            <td><input type="text" name="name">
+            <td><input type="text" name="iname">
             </td>
         </tr>
         <tr>
