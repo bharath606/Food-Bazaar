@@ -132,7 +132,7 @@ if($_POST["action"]){
         </tr>
         <tr>
             <td>Pieces</td>
-            <td><input type="number" name="pieces" autocomplete="off">
+            <td><input type="text" name="pieces" autocomplete="off">
             </td>
         </tr>
         <tr>
