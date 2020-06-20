@@ -164,7 +164,7 @@ if($_POST["action"]){
             $('#small_frm').html('Edit Here');
         </script>
     <script type="text/javascript">
-        $('input[name=name]').val('<?php echo $data["name"]; ?>');
+        $('input[name=iname]').val('<?php echo $data["name"]; ?>');
         <?php
         $file_url = $data["photo"];
         ?>
@@ -211,7 +211,7 @@ if(($_POST["action"]!='Edit') && $_POST["action"]!='Add New') {
             <?php
             $rows = get_results("SELECT * FROM $table_name ORDER BY id DESC");
             foreach($rows as $row){
-                echo '<tr>';
+                echo '<tr row-id="'.$row->id.'">';
                 echo '<td>'.$row->name.'</td>';
                 $file_url = $row->photo;
                 echo '<td>';
